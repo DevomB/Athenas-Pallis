@@ -1,0 +1,11 @@
+[package]
+name = "backtest_csv"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+athenas-pallas = { path = "../../athenas-pallas" }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+rust_decimal = "1"
+time = "0.3"

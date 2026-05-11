@@ -1,0 +1,12 @@
+[package]
+name = "live_binance"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+athenas-pallas = { path = "../../athenas-pallas", features = ["binance-live", "control-server"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+rust_decimal = "1"

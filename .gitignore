@@ -1,0 +1,44 @@
+# Rust / Cargo
+/target/
+**/*.rs.bk
+*.pdb
+
+# Root Cargo.lock: workspaces often commit it for reproducible builds — uncomment if you prefer to ignore:
+# Cargo.lock
+
+# IDE & editors
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# VS Code (keep `.vscode/` tracked only if the team shares launch/tasks — ignore locally otherwise)
+# .vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets & local env (never commit keys)
+.env
+.env.*
+!.env.example
+
+# Logs & coverage
+*.log
+coverage/
+lcov.info
+tarpaulin-report.*
+
+# Debug / profiling
+*.dSYM/
+perf.data*
+
+# Temporary / scratch
+*.tmp
+*.temp
+.cache/
