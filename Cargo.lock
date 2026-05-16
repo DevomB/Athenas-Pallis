@@ -57,7 +57,7 @@ dependencies = [
 
 [[package]]
 name = "athenas-pallas"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "async-trait",
  "axum",
@@ -148,7 +148,7 @@ dependencies = [
 
 [[package]]
 name = "backtest_csv"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "athenas-pallas",
  "rust_decimal",
@@ -905,7 +905,7 @@ checksum = "92daf443525c4cce67b150400bc2316076100ce0b3686209eb8cf3c31612e6f0"
 
 [[package]]
 name = "live_binance"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "athenas-pallas",
  "rust_decimal",
@@ -1006,7 +1006,7 @@ checksum = "9f7c3e4beb33f85d45ae3e3a1792185706c8e16d043238c593331cc7cd313b50"
 
 [[package]]
 name = "paper_binance"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "athenas-pallas",
  "rust_decimal",
@@ -1638,7 +1638,7 @@ dependencies = [
 
 [[package]]
 name = "system_config"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "athenas-pallas",
  "serde",
